@@ -1,0 +1,18 @@
+----- Sách (Books) -----
+GET      /books             Lấy danh sách tất cả các sách.
+GET      /books/:id         Lấy thông tin chi tiết của một cuốn sách.
+POST     /books             Tạo mới một cuốn sách.
+PUT      /books/:id         Cập nhật thông tin của một cuốn sách.
+DELETE   /books/:id         Xóa một cuốn sách.
+----- Tác Giả (Authors) ----
+GET      /authors           Lấy danh sách tất cả các tác giả.
+GET      /authors/:id       Lấy thông tin chi tiết của một tác giả.
+POST     /authors           Tạo mới một tác giả.
+PUT      /authors/:id       Cập nhật thông tin của một tác giả.
+DELETE   /authors/:id       Xóa một tác giả.
+----- Danh Mục (Categories) ----
+GET      /categories        Lấy danh sách tất cả các danh mục (thể loại sách).
+GET      /categories/:id    Lấy thông tin chi tiết của một danh mục (thể loại).
+POST     /categories        Tạo mới một danh mục (thể loại sách).
+PUT      /categories/:id    Cập nhật thông tin của một danh mục (thể loại).
+DELETE   /categories/:id    Xóa một danh mục (thể loại sách).
